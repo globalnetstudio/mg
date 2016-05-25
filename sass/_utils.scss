@@ -1,0 +1,37 @@
+.hide {
+	position: absolute;
+	text-indent: -9999px;
+	top: -9999px;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.inline {
+	display: inline;
+}
+
+.block {
+	display: block;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.icon:before {
+	content: "";
+	display: inline-block;
+	width: 30px;
+}

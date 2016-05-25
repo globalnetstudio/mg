@@ -1,0 +1,87 @@
+// Colors
+$teal: #2b9db0;
+$grayTitle: #616161;
+
+.clients {
+	h2, h3, li {
+		font-family: Muli, Arial, sans-serif;
+	}
+
+	h2 {
+		color: $white;
+		height: 50px;
+		line-height: 50px;
+		font-weight: 300;
+		font-size: 30px;
+		margin-bottom: 30px;		
+		text-align: center;
+		background-color: #002060;
+	}
+	.row {
+		margin-bottom: 40px;
+		-js-display: flex;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.column {
+		flex: 0 0 204px;
+		text-align: center;
+		img {
+			border: solid 2px $teal;
+			height: auto;
+			margin-bottom: 10px;
+			max-width: 204px;
+			width: 100%;
+		}
+		h3 {
+			color: $grayTitle;
+			font-weight: 400;
+			font-size: 18px;
+		}
+	}
+
+	.added-values {
+		-js-display: flex;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.added-values-description {
+		background-color: $teal;
+		color: $white;
+		padding: 20px;
+		box-sizing: border-box;
+		flex: auto;
+		h3 {
+			font-size: 24px;
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		ul {
+			margin-left: 30px;
+		}
+		li {
+			font-size: 25px;
+			letter-spacing: 1px;
+			line-height: 25px;
+			span {
+				font-size: 15px;
+			}
+		}
+	}
+
+	.added-values-image {
+		flex-basis: 434px;
+		border: solid 2px $teal;
+		text-align: center;
+		-js-display: flex;
+		display: flex;
+		align-items: center;
+		img {			
+			height: auto;
+			max-width: 434px;
+			width: 100%;
+		}
+	}
+}

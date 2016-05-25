@@ -1,0 +1,40 @@
+#carousel {
+	width: 740px;
+	margin: auto;
+}
+
+.bx-wrapper {
+	.bx-viewport {
+		border: none;
+		box-shadow: none;
+	}
+
+	.bx-caption {
+		background-color: #245ca6;
+		background-color: rgba(#245ca6, .75);
+		color: white;
+		font-family: Verdana, Arial, sans-serif;
+		font-size: 22px;
+		line-height: 25px;
+		text-align: center;		
+	}
+
+	.bx-controls-direction a {
+		bottom: 6px;
+		top: inherit;
+	}
+
+	.bx-prev {
+		left: 20px;
+		background: url(/images/icons/left-arrow-icon.png) no-repeat;
+	}
+
+	.bx-next {
+		right: 25px;
+		background: url(/images/icons/right-arrow-icon.png) no-repeat;	
+	}
+
+	.bx-next:hover {
+		background-position: inherit;
+	}
+}

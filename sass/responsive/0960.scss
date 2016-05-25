@@ -1,0 +1,70 @@
+@media (min-width: 960px) and (max-width: 1279px) {
+  .header {
+    .top-header {
+      .wrapper {
+        height: 150px;
+        width: 90%;
+      }
+    }
+
+    #logo {
+      padding-top: 15px;
+      height: auto;
+      flex-direction: column;
+      .slogan {
+        padding-top: 5px;
+      }
+    }
+
+    .contact-menu {
+      height: 150px;
+    }
+
+    #contact-information {
+      padding-top: 40px;
+    }
+
+    #carousel {
+      position: relative;
+      top: 15px;
+    }
+  }
+
+  .content {
+    width: 90%;
+  }
+
+  .home {
+    .home-values {
+      width: 100%;
+      margin: auto;
+      .description {
+        max-width: 960px;
+      }
+    }
+  }
+
+  .bottom-address {
+    width: 90%;
+  }
+
+  .thanks-content {
+    width: 100%;
+
+    .wrapper {
+      display: block;
+    }
+
+    .message {
+      width: 80%;
+      display: block;
+      margin: 30px auto 0;
+    }
+  }
+
+  .footer {
+    .container {
+      width: 90%;
+    }
+  }
+}

@@ -1,0 +1,89 @@
+@media (max-width: 374px) {
+  .header {
+    height: 500px;
+
+    #carousel {
+      width: 300px;
+    }
+  }
+
+  .home {
+    .home-values {
+      .description {
+        padding: 10px;
+        font-size: 16px;
+      }
+    }
+  }
+
+  .services {
+    ul {
+      margin-left: 10px;
+    }
+    li {
+      font-size: 14px;
+    }
+  }
+
+  .clients {
+    .row {
+      flex-direction: column;
+      flex-wrap: no-wrap;
+      margin-bottom: 20px;
+      justify-content: inherit;
+    }
+
+    .column {
+      flex: auto;
+    }
+  }
+
+  .bottom-address {
+    width: 85%;
+  }
+
+  .footer {
+    height: 90px;
+    .container {
+      flex-direction: column;
+    }
+
+    .copyright {
+      padding: 10px 0;
+      line-height: 16px;
+    }
+
+    .developed_by {
+      text-align: center;
+      padding-left: 0;
+    }
+  }
+
+  .thanks-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    .wrapper {
+      display: block;
+      vertical-align: inherit;
+      margin-top: 5%;
+      width: 90%;
+    }
+
+    .message {
+      height: 200px;
+      margin: inherit;
+      width: 100%;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      h2 {
+        font-size: 1.2em;
+      }
+    }
+  }
+}

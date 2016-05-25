@@ -1,0 +1,12 @@
+@media (min-width: 1280px) and (max-width: 1360px) {
+	.content {
+		&:before {
+			top: -90px;
+		}
+	}
+
+	.thanks-content .message {
+    margin: 80px auto 0;
+    width: 90%;
+  }
+}

@@ -837,6 +837,26 @@ label.error {
   margin-bottom: -5px;
 }
 
+.back-to-top {
+  background-color: rgba(43, 157, 176, 0.7);
+  border-radius: 10px;
+  bottom: 70px;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 40px;
+  padding: 0 15px;
+  position: fixed;
+  right: 20px;
+  text-decoration: none;
+}
+
+.back-to-top:hover {
+  background-color: #2b9db0;
+}
+
 /* RESPONSIVE */
 @media (min-width: 2600px) {
   .content:before {
@@ -1197,6 +1217,10 @@ label.error {
   .thanks-content .message h2 {
     font-size: 1.2em;
   }
+  .back-to-top {
+    right: 10px;
+    bottom: 60px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1276,6 +1300,10 @@ label.error {
   }
   .thanks-content .message h2 {
     font-size: 1.2em;
+  }
+  .back-to-top {
+    right: 10px;
+    bottom: 60px;
   }
 }
 
@@ -1546,6 +1574,10 @@ label.error {
   .thanks-content .message h2 {
     font-size: 1.2em;
   }
+  .back-to-top {
+    right: 10px;
+    bottom: 85px;
+  }
 }
 
 @media (max-width: 374px) {
@@ -1627,6 +1659,10 @@ label.error {
   }
   .thanks-content .message h2 {
     font-size: 1.2em;
+  }
+  .back-to-top {
+    right: 10px;
+    bottom: 120px;
   }
 }
 

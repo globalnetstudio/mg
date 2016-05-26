@@ -7,8 +7,12 @@
 		<meta name="description" content="<?php echo $meta_description; ?>">
 		<!-- Normalize -->
 		<link rel="stylesheet" href="/css/normalize.css">
+
 		<!-- Google Fonts -->
 		<link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+
+		<!-- Fontastic -->
+		<link rel="stylesheet" href="/css/fontastic.css">
 
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
 
@@ -88,6 +92,8 @@
 				<p><img src="/images/icons/mark-icon.png" alt="Mark Icon">&nbsp;Av.Insurgentes Sur 2047, Edificio B, Col. San Ángel, C.P. 01000 Ciudad de México</p>
 			</div><!-- /.bottom-address -->
 		</aside>
+
+		<a class="back-to-top"><i class="icon-arrow-up"></i></a>
 
 		<footer>
 			<div class="footer">

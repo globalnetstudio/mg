@@ -1,4 +1,3 @@
-<?php $_SESSION['mail-sended'] = true; // NO OLVIDAR QUITAR ESTA LINEA ?>
 <?php if(isset($_SESSION['mail-sended']) && $_SESSION['mail-sended'] == true) : ?>
 	<!-- .thanks-content -->
 	<section class="thanks-content">

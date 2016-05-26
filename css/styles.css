@@ -1095,6 +1095,7 @@ label.error {
     padding-left: 20px;
     max-width: 466px;
     width: 100%;
+    box-sizing: border-box;
   }
   .clients h2 {
     height: auto;
@@ -1170,6 +1171,12 @@ label.error {
   }
   .contact .bottom-form .right-column {
     text-align: center;
+  }
+  .contact .map {
+    height: 324px;
+  }
+  .contact .map iframe {
+    height: 320px;
   }
   .bottom-address {
     width: 90%;
@@ -1254,6 +1261,12 @@ label.error {
   }
   .contact .bottom-form .right-column {
     text-align: center;
+  }
+  .contact .map {
+    height: 324px;
+  }
+  .contact .map iframe {
+    height: 320px;
   }
   .bottom-address {
     width: 90%;

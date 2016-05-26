@@ -32,6 +32,7 @@
     h2 {
       padding-top: 10px;
     }
+
     .bottom-form {
       .left-column, .right-column {
         float: none;
@@ -44,6 +45,13 @@
         text-align: center;
       }
     }
+
+      .map {
+        height: 324px;
+        iframe {
+          height: 320px;
+        }
+      }
   }
 
   .bottom-address {

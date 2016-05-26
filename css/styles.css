@@ -839,8 +839,12 @@ label.error {
 
 /* RESPONSIVE */
 @media (min-width: 2600px) {
+  .content:before {
+    top: -60px;
+  }
   .thanks-content .message {
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     border-radius: 0;
   }
   .thanks-content .message h2 {
@@ -856,8 +860,11 @@ label.error {
 }
 
 @media (min-width: 1920px) and (max-width: 2599px) {
+  .content:before {
+    top: -60px;
+  }
   .thanks-content .message {
-    margin-top: 50px;
+    margin: 50px 0;
     border-radius: 0;
   }
   .thanks-content .message h2 {
@@ -879,6 +886,43 @@ label.error {
   }
   .header .bottom-header {
     top: 230px;
+  }
+  .content:before {
+    top: -110px;
+  }
+  .thanks-content .message {
+    margin-top: 100px;
+    border-radius: 0;
+  }
+}
+
+@media (min-width: 1680px) and (max-width: 1889px) {
+  .content:before {
+    top: -110px;
+  }
+  .thanks-content .message {
+    margin-top: 100px;
+    border-radius: 0;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1679px) {
+  .content:before {
+    top: -110px;
+  }
+  .thanks-content .message {
+    margin-top: 100px;
+    border-radius: 0;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1679px) {
+  .content:before {
+    top: -110px;
+  }
+  .thanks-content .message {
+    margin-top: 100px;
+    border-radius: 0;
   }
 }
 
@@ -919,6 +963,9 @@ label.error {
   .content {
     width: 90%;
   }
+  .content:before {
+    top: -90px;
+  }
   .home .home-values {
     width: 100%;
     margin: auto;
@@ -946,6 +993,9 @@ label.error {
   }
   .footer .container {
     width: 90%;
+  }
+  .thanks-content {
+    margin-top: 80px;
   }
 }
 
@@ -990,7 +1040,7 @@ label.error {
     width: 90%;
   }
   .content:before {
-    top: -30px;
+    top: -90px;
   }
   .about .column {
     padding: 0 15px;
@@ -1064,6 +1114,9 @@ label.error {
   .footer .container {
     width: 90%;
   }
+  .thanks-content {
+    margin-top: 80px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1072,6 +1125,9 @@ label.error {
   }
   .header #carousel {
     width: 500px;
+  }
+  .content:before {
+    top: -30px;
   }
   .home h2 {
     padding-top: 10px;
@@ -1112,6 +1168,7 @@ label.error {
     margin-top: 5px;
   }
   .thanks-content {
+    margin-top: 20px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;
@@ -1149,6 +1206,9 @@ label.error {
   .header #carousel {
     width: 500px;
   }
+  .content:before {
+    top: -30px;
+  }
   .home h2 {
     padding-top: 10px;
   }
@@ -1188,6 +1248,7 @@ label.error {
     margin-top: 5px;
   }
   .thanks-content {
+    margin-top: 20px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;
@@ -1457,6 +1518,7 @@ label.error {
     width: 100%;
   }
   .thanks-content {
+    margin-top: 20px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;
@@ -1467,7 +1529,7 @@ label.error {
   .thanks-content .wrapper {
     display: block;
     vertical-align: inherit;
-    margin-top: 5%;
+    margin-top: 20px;
     width: 90%;
   }
   .thanks-content .message {
@@ -1496,6 +1558,9 @@ label.error {
   .home .home-values .description {
     padding: 10px;
     font-size: 16px;
+  }
+  .content:before {
+    top: -30px;
   }
   .services ul {
     margin-left: 10px;
@@ -1535,6 +1600,7 @@ label.error {
     padding-left: 0;
   }
   .thanks-content {
+    margin-top: 20px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;

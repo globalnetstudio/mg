@@ -32,6 +32,9 @@
 
   .content {
     width: 90%;
+    &:before {
+      top: -90px;
+    }
   }
 
   .home {
@@ -73,5 +76,9 @@
     .container {
       width: 90%;
     }
+  }
+
+  .thanks-content {
+    margin-top: 80px;
   }
 }

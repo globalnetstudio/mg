@@ -6,4 +6,17 @@
 			top: 230px;
 		}
 	}
+
+	.content {
+    &:before {
+      top: -110px;
+    }
+  }
+
+  .thanks-content {
+    .message {
+      margin-top: 100px;
+      border-radius: 0;
+    }
+  }
 }

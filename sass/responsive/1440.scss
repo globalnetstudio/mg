@@ -1,0 +1,13 @@
+@media(min-width: 1440px) and (max-width: 1679px) {
+	.content {
+    &:before {
+      top: -110px;
+    }
+  }
+  .thanks-content {
+    .message {
+      margin-top: 100px;
+      border-radius: 0;
+    }
+  }
+}

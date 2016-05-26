@@ -1,7 +1,13 @@
 @media (min-width: 1920px) and (max-width: 2599px) {
+  .content {
+    &:before {
+      top: -60px;
+    }
+  }
+
   .thanks-content {
     .message {
-      margin-top: 50px;
+      margin: 50px 0;
       border-radius: 0;
 
       h2 {

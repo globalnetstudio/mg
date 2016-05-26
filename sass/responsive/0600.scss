@@ -1,54 +1,42 @@
-@media (min-width: 600px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .header {
     height: 550px;
 
-    .top-header {
-      top: 0;
-      .wrapper {
-        width: 100%;
-        display: block;
-        height: 220px;
-      }
-    }
-
-    .bottom-header {
-      top: 220px;
-    }
-
-    #logo {
-      padding-top: 10px;
-      display: block;
-      margin: auto;
-      text-align: center;
-      .slogan {
-        padding-top: 0;
-        text-align: center;
-      }
-    }
-
-    .contact-menu {
-      height: 80px;
-      width: 100%;
-      // padding: 0 20px;
-      #contact-information {
-        padding-top: 0;
-        justify-content: space-around;
-      }
-    }
-
-    #carousel {
+     #carousel {
       width: 500px;
-      position: relative;
-      top: 30px;
     }
   }
 
-  .content {
-    margin-top: 20px;
-    width: 90%;
+  .home {
+    h2 {
+      padding-top: 10px;
+    }
 
-    &:before {
-      top: -30px;
+    .home-values {
+      .description {
+        padding: 10px 0;
+        height: auto;
+        line-height: 25px;
+        font-size: 18px;
+      }
+    }
+  }
+
+  .contact {
+    h2 {
+      padding-top: 10px;
+    }
+    .bottom-form {
+      .left-column, .right-column {
+        float: none;
+        width: 100%
+      }
+      .left-column {
+        margin-bottom: 20px;
+      }
+      .right-column{
+        text-align: center;
+      }
     }
   }
 

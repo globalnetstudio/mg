@@ -926,6 +926,10 @@ label.error {
   .home .home-values .description {
     max-width: 960px;
   }
+  .clients h2 {
+    height: auto;
+    font-size: 28px;
+  }
   .bottom-address {
     width: 90%;
   }
@@ -945,58 +949,7 @@ label.error {
   }
 }
 
-@media (min-width: 768px) and (max-width: 959px) {
-  .header .top-header {
-    top: 0;
-  }
-  .header .top-header .wrapper {
-    width: 100%;
-    display: block;
-    height: 220px;
-  }
-  .header #logo {
-    padding-top: 10px;
-    display: block;
-    margin: auto;
-    text-align: center;
-  }
-  .header #logo .slogan {
-    padding-top: 0;
-    text-align: center;
-  }
-  .header .contact-menu {
-    height: 80px;
-    width: 100%;
-  }
-  .header .contact-menu #contact-information {
-    padding-top: 0;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-  .header #carousel {
-    width: 650px;
-    position: relative;
-    top: 60px;
-  }
-  .content {
-    margin-top: 20px;
-    width: 90%;
-  }
-  .content:before {
-    top: -30px;
-  }
-  .bottom-address {
-    width: 90%;
-  }
-  .footer .container {
-    width: 90%;
-  }
-}
-
-@media (min-width: 600px) and (max-width: 767px) {
-  .header {
-    height: 550px;
-  }
+@media (max-width: 959px) {
   .header .top-header {
     top: 0;
   }
@@ -1028,7 +981,7 @@ label.error {
         justify-content: space-around;
   }
   .header #carousel {
-    width: 500px;
+    width: 650px;
     position: relative;
     top: 30px;
   }
@@ -1038,6 +991,109 @@ label.error {
   }
   .content:before {
     top: -30px;
+  }
+  .about .column {
+    padding: 0 15px;
+  }
+  .about .column p, .about .column li span {
+    font-size: 14px;
+  }
+  .about .column p, .about .column ul {
+    padding-top: 10px;
+  }
+  .about .column p {
+    text-align: left;
+    width: 100%;
+  }
+  .services h2 {
+    padding-top: 10px;
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+  .services .collage-description-list {
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: inherit;
+        justify-content: inherit;
+  }
+  .services .collage-description-list .services-collage {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .services .collage-description-list .description {
+    margin: auto;
+    padding-left: 20px;
+    max-width: 466px;
+    width: 100%;
+  }
+  .clients h2 {
+    height: auto;
+    line-height: 32px;
+    margin-bottom: 50px;
+    padding: 10px 5px;
+  }
+  .clients .row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  .clients .column {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    margin-bottom: 20px;
+  }
+  .clients .added-values {
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: inherit;
+        justify-content: inherit;
+  }
+  .clients .added-values-image {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    padding: 20px 0;
+  }
+  .clients .added-values-image img {
+    margin: auto;
+  }
+  .bottom-address {
+    width: 90%;
+  }
+  .footer .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    height: 550px;
+  }
+  .header #carousel {
+    width: 500px;
+  }
+  .home h2 {
+    padding-top: 10px;
+  }
+  .home .home-values .description {
+    padding: 10px 0;
+    height: auto;
+    line-height: 25px;
+    font-size: 18px;
+  }
+  .contact h2 {
+    padding-top: 10px;
+  }
+  .contact .bottom-form .left-column, .contact .bottom-form .right-column {
+    float: none;
+    width: 100%;
+  }
+  .contact .bottom-form .left-column {
+    margin-bottom: 20px;
+  }
+  .contact .bottom-form .right-column {
+    text-align: center;
   }
   .bottom-address {
     width: 90%;
@@ -1086,51 +1142,34 @@ label.error {
   }
 }
 
-@media (min-width: 600px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .header {
     height: 550px;
   }
-  .header .top-header {
-    top: 0;
-  }
-  .header .top-header .wrapper {
-    width: 100%;
-    display: block;
-    height: 220px;
-  }
-  .header .bottom-header {
-    top: 220px;
-  }
-  .header #logo {
-    padding-top: 10px;
-    display: block;
-    margin: auto;
-    text-align: center;
-  }
-  .header #logo .slogan {
-    padding-top: 0;
-    text-align: center;
-  }
-  .header .contact-menu {
-    height: 80px;
-    width: 100%;
-  }
-  .header .contact-menu #contact-information {
-    padding-top: 0;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
   .header #carousel {
     width: 500px;
-    position: relative;
-    top: 30px;
   }
-  .content {
-    margin-top: 20px;
-    width: 90%;
+  .home h2 {
+    padding-top: 10px;
   }
-  .content:before {
-    top: -30px;
+  .home .home-values .description {
+    padding: 10px 0;
+    height: auto;
+    line-height: 25px;
+    font-size: 18px;
+  }
+  .contact h2 {
+    padding-top: 10px;
+  }
+  .contact .bottom-form .left-column, .contact .bottom-form .right-column {
+    float: none;
+    width: 100%;
+  }
+  .contact .bottom-form .left-column {
+    margin-bottom: 20px;
+  }
+  .contact .bottom-form .right-column {
+    text-align: center;
   }
   .bottom-address {
     width: 90%;
@@ -1286,9 +1325,6 @@ label.error {
   }
   .clients h2 {
     font-size: 28px;
-    height: auto;
-    background-color: transparent;
-    color: #616161;
     line-height: 35px;
     margin-bottom: 20px;
   }

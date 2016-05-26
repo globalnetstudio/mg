@@ -1,13 +1,16 @@
-@media (min-width: 768px) and (max-width: 959px) {
+@media (max-width: 959px) {
 	.header {
+    .top-header {
+      top: 0;
+      .wrapper {
+        width: 100%;
+        display: block;
+        height: 220px;
+      }
+    }
 
-		.top-header {
-			top: 0;
-			.wrapper {
-				width: 100%;
-				display: block;
-				height: 220px;
-			}
+		.bottom-header {
+			top: 220px;
 		}
 
 		#logo {
@@ -24,7 +27,6 @@
 		.contact-menu {
 			height: 80px;
 			width: 100%;
-			// padding: 0 20px;
 			#contact-information {
 				padding-top: 0;
 				justify-content: space-around;
@@ -34,17 +36,93 @@
 		#carousel {
 			width: 650px;
 			position: relative;
-			top: 60px;
+			top: 30px;
 		}
 	}
 
 	.content {
 		margin-top: 20px;
 		width: 90%;
+
 		&:before {
 			top: -30px;
 		}
 	}
+
+  .about {
+    .column {
+      padding: 0 15px;
+      p , li span {
+        font-size: 14px;
+      }
+
+      p, ul {
+        padding-top: 10px;
+      }    
+
+      p {        
+        text-align: left;        
+        width: 100%;
+      }
+    }
+  }
+
+  .services {
+    h2 {
+      padding-top: 10px;
+      margin-bottom: 30px;
+      font-size: 30px;
+    }
+
+    .collage-description-list {
+      flex-direction: column;
+      justify-content: inherit;
+      .services-collage {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .description {
+        margin: auto;
+        padding-left: 20px;
+        max-width: 466px;
+        width: 100%;
+      }
+    }
+  }
+
+  .clients {
+    h2 {
+      height: auto;
+      line-height: 32px;
+      margin-bottom: 50px;
+      padding: 10px 5px;
+    }
+
+    .row {
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-bottom: 20px;
+    }
+
+    .column {
+      flex-basis: 50%;
+      margin-bottom: 20px;
+    }
+
+    .added-values {
+      flex-direction: column;
+      justify-content: inherit;
+
+    }
+
+    .added-values-image {
+      flex-basis: 100%;
+      padding: 20px 0;
+      img {
+        margin: auto;
+      }
+    }
+  }
 
 	.bottom-address {
 		width: 90%;

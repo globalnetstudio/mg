@@ -1,4 +1,3 @@
-// @media (min-width: 375px) and (max-width: 599px) {
 @media (max-width: 599px) {
   .header {
     height: 530px;
@@ -130,10 +129,7 @@
 
   .clients {
     h2 {
-      font-size: 28px;
-      height: auto;
-      background-color: transparent;
-      color: $grayTitle;
+      font-size: 28px;      
       line-height: 35px;
       margin-bottom: 20px;
     }
@@ -151,9 +147,11 @@
       box-sizing: border-box;
       margin-bottom: 20px;
     }
+
     .added-values {
       flex-direction: column;
     }
+
     .added-values-image {
       padding: 20px 0;
       flex: auto;

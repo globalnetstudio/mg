@@ -1,4 +1,8 @@
 @media (min-width: 2600px) {
+  .header {
+    height: 490px !important;
+  }
+
   .content {
     &:before {
       top: -60px;

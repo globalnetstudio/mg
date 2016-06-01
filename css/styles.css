@@ -41,7 +41,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 628px;
+  height: 425px;
   position: relative;
   z-index: 10;
 }
@@ -244,8 +244,10 @@
 }
 
 .bx-wrapper .bx-viewport {
+  background-color: transparent;
   border: none;
   box-shadow: none;
+  height: 198px !important;
 }
 
 .bx-wrapper .bx-caption {
@@ -256,6 +258,7 @@
   font-size: 22px;
   line-height: 25px;
   text-align: center;
+  bottom: -45px;
 }
 
 .bx-wrapper .bx-controls-direction a {
@@ -859,6 +862,9 @@ label.error {
 
 /* RESPONSIVE */
 @media (min-width: 2600px) {
+  .header {
+    height: 490px !important;
+  }
   .content:before {
     top: -60px;
   }
@@ -880,6 +886,12 @@ label.error {
 }
 
 @media (min-width: 1920px) and (max-width: 2599px) {
+  .header {
+    height: 450px !important;
+  }
+  .header .bottom-header {
+    top: 200px !important;
+  }
   .content:before {
     top: -60px;
   }
@@ -902,10 +914,10 @@ label.error {
 @media (min-width: 1890px) {
   .header {
     background-image: url("/images/header-background/header-background-large.jpg");
-    height: 700px;
+    height: 450px;
   }
   .header .bottom-header {
-    top: 230px;
+    top: 200px;
   }
   .content:before {
     top: -110px;
@@ -957,6 +969,9 @@ label.error {
 }
 
 @media (min-width: 960px) and (max-width: 1279px) {
+  .header {
+    height: 440px;
+  }
   .header .top-header .wrapper {
     height: 150px;
     width: 90%;
@@ -1020,6 +1035,9 @@ label.error {
 }
 
 @media (max-width: 959px) {
+  .header {
+    height: 460px;
+  }
   .header .top-header {
     top: 0;
   }
@@ -1029,7 +1047,10 @@ label.error {
     height: 220px;
   }
   .header .bottom-header {
-    top: 220px;
+    top: 222px;
+  }
+  .header .bx-wrapper .bx-viewport {
+    height: 179px !important;
   }
   .header #logo {
     padding-top: 10px;
@@ -1142,10 +1163,16 @@ label.error {
 
 @media (max-width: 767px) {
   .header {
-    height: 550px;
+    height: 420px;
   }
   .header #carousel {
     width: 500px;
+  }
+  .header .bottom-header {
+    top: 215px;
+  }
+  .header .bx-wrapper .bx-viewport {
+    height: 148px !important;
   }
   .content:before {
     top: -30px;
@@ -1232,10 +1259,16 @@ label.error {
 
 @media (max-width: 767px) {
   .header {
-    height: 550px;
+    height: 420px;
   }
   .header #carousel {
     width: 500px;
+  }
+  .header .bottom-header {
+    top: 215px;
+  }
+  .header .bx-wrapper .bx-viewport {
+    height: 148px !important;
   }
   .content:before {
     top: -30px;
@@ -1322,7 +1355,7 @@ label.error {
 
 @media (max-width: 599px) {
   .header {
-    height: 530px;
+    height: 457px;
   }
   .header #mobile-menu {
     display: block;
@@ -1368,6 +1401,7 @@ label.error {
     top: 20px;
   }
   .header #carousel .bx-wrapper .bx-viewport {
+    height: 117px !important;
     left: 0;
   }
   .header #carousel .bx-caption {
@@ -1595,10 +1629,14 @@ label.error {
 
 @media (max-width: 374px) {
   .header {
-    height: 500px;
+    height: 447px;
   }
   .header #carousel {
     width: 300px;
+  }
+  .header #carousel .bx-wrapper .bx-viewport {
+    height: 107px !important;
+    left: 0;
   }
   .home .home-values .description {
     padding: 10px;

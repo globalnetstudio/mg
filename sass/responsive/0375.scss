@@ -1,6 +1,6 @@
 @media (max-width: 599px) {
   .header {
-    height: 530px;
+    height: 457px;
 
     #mobile-menu {
       display: block;
@@ -49,6 +49,7 @@
       top: 20px;
 
       .bx-wrapper .bx-viewport {
+        height: 117px !important;
         left: 0;
       }
 

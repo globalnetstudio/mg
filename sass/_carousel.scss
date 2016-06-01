@@ -2,11 +2,12 @@
 	width: 740px;
 	margin: auto;
 }
-
 .bx-wrapper {
 	.bx-viewport {
+		background-color: transparent;
 		border: none;
 		box-shadow: none;
+		height: 198px !important;
 	}
 
 	.bx-caption {
@@ -16,7 +17,8 @@
 		font-family: Verdana, Arial, sans-serif;
 		font-size: 22px;
 		line-height: 25px;
-		text-align: center;		
+		text-align: center;
+		bottom: -45px;
 	}
 
 	.bx-controls-direction a {

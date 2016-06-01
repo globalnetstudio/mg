@@ -1,11 +1,20 @@
 @media (max-width: 767px) {
   .header {
-    height: 550px;
+    height: 420px;
 
      #carousel {
       width: 500px;
     }
+
+    .bottom-header {
+      top: 215px;
+    }
+
+    .bx-wrapper .bx-viewport {
+      height: 148px !important;
+    }
   }
+
 
   .content {
     &:before {

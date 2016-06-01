@@ -1,9 +1,14 @@
 @media (max-width: 374px) {
   .header {
-    height: 500px;
+    height: 447px;
 
     #carousel {
       width: 300px;
+
+      .bx-wrapper .bx-viewport {
+        height: 107px !important;
+        left: 0;
+      }
     }
   }
 

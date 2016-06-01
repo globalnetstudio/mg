@@ -7,11 +7,19 @@
 		</li>
 
 		<li>
-			<img src="/images/carousel/slider-1.jpg" alt="Limpieza Profesional" title="Servicio de Limpieza">
+			<img src="/images/carousel/slider-2.jpg" alt="Limpieza Profesional" title="Servicio de Limpieza">
 		</li>
 
 		<li>
-			<img src="/images/carousel/slider-1.jpg" alt="Limpieza Profesional" title="Servicio de Limpieza">
+			<img src="/images/carousel/slider-3.jpg" alt="Limpieza Profesional" title="Servicio de Limpieza">
+		</li>
+
+		<li>
+			<img src="/images/carousel/slider-4.jpg" alt="Limpieza Profesional" title="Servicio de Limpieza">
+		</li>
+
+		<li>
+			<img src="/images/carousel/slider-5.jpg" alt="Limpieza Profesional" title="Servicio de Limpieza">
 		</li>
 
 	</ul> <!-- /.bxslider -->

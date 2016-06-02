@@ -3,7 +3,7 @@
 	<ul class="bxslider">
 
 		<li>
-			<img src="/images/carousel/slider-1.jpg" alt="Profesionalismo" title="Profesionalismo">
+			<img src="/images/carousel/slider-1.jpg" alt="Funcionalidad" title="Funcionalidad">
 		</li>
 
 		<li>
@@ -19,7 +19,7 @@
 		</li>
 
 		<li>
-			<img src="/images/carousel/slider-5.jpg" alt="Excelencia" title="Excelencia">
+			<img src="/images/carousel/slider-5.jpg" alt="Confort" title="Confort">
 		</li>
 
 	</ul> <!-- /.bxslider -->

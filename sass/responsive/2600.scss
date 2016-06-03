@@ -1,6 +1,14 @@
 @media (min-width: 2600px) {
   .header {
     height: 490px !important;
+
+    #carousel {
+      .bx-wrapper {
+        .bx-viewport {
+          height: 250px !important;
+        }
+      }
+    }
   }
 
   .content {

@@ -3,7 +3,12 @@
     height: 420px;
 
      #carousel {
-      width: 500px;
+      width: 540px;
+      .bx-wrapper {
+        .bx-viewport {
+          height: 156px !important;
+        }
+      }
     }
 
     .bottom-header {

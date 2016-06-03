@@ -27,8 +27,14 @@
     }
 
     #carousel {
+      width: 890px;
       position: relative;
-      top: 15px;
+      top: 0px;
+      .bx-wrapper {
+        .bx-viewport {
+          height: 229px !important;
+        }
+      }
     }
   }
 

@@ -1,4 +1,15 @@
 @media (min-width: 1280px) and (max-width: 1360px) {
+	.header {
+		height: 480px;
+	  #carousel {
+	    .bx-wrapper {
+	      .bx-viewport {
+	        height: 250px !important;
+	      }
+	    }
+	  }
+	}
+
 	.content {
 		&:before {
 			top: -90px;
